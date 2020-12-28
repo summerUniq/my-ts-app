@@ -5,3 +5,4 @@ function helloWorld(name: string): void {
 
 helloWorld('11111');
 console.log(11111);
+helloWorld(11);
