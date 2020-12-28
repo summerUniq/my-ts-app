@@ -2,6 +2,7 @@
     "extends": ["tslint:recommended", "tslint-config-prettier"],
     "rulesDirectory": ["../node_modules/tslint-eslint-rules/dist/rules"],
     "rules": {
+      "prettier/prettier": "error",
       "no-any": false,
       "only-arrow-functions": false,
       "member-ordering": false,

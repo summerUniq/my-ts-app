@@ -15,6 +15,7 @@ module.exports = {
   },
   plugins: ['react', 'jsx-a11y', 'import'],
   rules: {
+    'prettier/prettier': 'error',
     'import/no-named-as-default': 'off',
     'react/jsx-filename-extension': [
       'error',
@@ -33,12 +34,12 @@ module.exports = {
         allowTernary: true,
       },
     ],
-    'no-void': 'off', 
+    'no-void': 'off',
     'lines-between-class-members': ['error', 'always', {exceptAfterSingleLine: true}],
     'no-console': ['error', {allow: ['log']}],
-    'one-var': 'off', 
-    'no-new': 'off', 
-    radix: 'off', 
-    'no-bitwise': 'off', 
+    'one-var': 'off',
+    'no-new': 'off',
+    radix: 'off',
+    'no-bitwise': 'off',
   },
 };
