@@ -1,0 +1,52 @@
+{
+    "extends": ["tslint:recommended", "tslint-config-prettier"],
+    "rulesDirectory": ["../node_modules/tslint-eslint-rules/dist/rules"],
+    "rules": {
+      "no-any": false,
+      "only-arrow-functions": false,
+      "member-ordering": false,
+      "ordered-imports": false,
+      "no-namespace": false,
+      "interface-name": [true, "never-prefix"],
+      "object-literal-sort-keys": false,
+      "no-var-requires": false,
+      "no-console": [true, "warn", "error"],
+      "no-shadowed-variable": false,
+      "one-variable-per-declaration": false,
+      "no-unused-expression": [true, "allow-fast-null-checks"],
+      "radix": false,
+      "no-bitwise": false,
+      "no-constant-condition": {
+        "severity": "warning"
+      },
+      "no-control-regex": true,
+      "no-duplicate-case": true,
+      "no-empty-character-class": true,
+      "no-ex-assign": true,
+      "no-extra-boolean-cast": true,
+      "no-extra-semi": true,
+      "no-invalid-regexp": true,
+      "no-regex-spaces": true,
+      "no-unexpected-multiline": true,
+      "valid-jsdoc": false,
+      "valid-typeof": true,
+      "ter-no-proto": true,
+      "ter-no-script-url": true,
+      "ter-no-self-compare": true,
+      "handle-callback-err": false,
+      "ter-arrow-body-style": [
+        true,
+        "as-needed",
+        {
+          "requireReturnForObjectLiteral": false
+        }
+      ],
+      "ter-prefer-arrow-callback": [
+        true,
+        {
+          "allowNamedFunctions": false,
+          "allowUnboundThis": true
+        }
+      ]
+    }
+  }
